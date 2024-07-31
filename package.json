@@ -1,0 +1,25 @@
+{
+  "name": "back-end-express-api",
+  "version": "1.0.0",
+  "description": "node api with express framework",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroHBSousa/node-express-api-backend-project.git"
+  },
+  "keywords": [
+    "api",
+    "node",
+    "express",
+    "zod"
+  ],
+  "author": "Pedro Sousa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroHBSousa/node-express-api-backend-project/issues"
+  },
+  "homepage": "https://github.com/PedroHBSousa/node-express-api-backend-project#readme"
+}
