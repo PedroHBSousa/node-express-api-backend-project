@@ -4,7 +4,7 @@
   "description": "node api with express framework",
   "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/PedroHBSousa/node-express-api-backend-project/issues"
   },
-  "homepage": "https://github.com/PedroHBSousa/node-express-api-backend-project#readme"
+  "homepage": "https://github.com/PedroHBSousa/node-express-api-backend-project#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
