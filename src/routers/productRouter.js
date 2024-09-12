@@ -1,18 +1,16 @@
-import express from "express";
-import createProduct from "../controllers/product/createProduct.js";
-import deleteProduct from "../controllers/product/deleteProduct.js";
-import editNameProduct from "../controllers/product/editNameProduct.js";
-import productById from "../controllers/product/productById.js";
-import productList from "../controllers/product/productList.js";
-import editProduct from "../controllers/product/editProduct.js";
+import express from 'express'
+import listProducts from '../controllers/product/listProducts.js'
+import createProduct from '../controllers/product/createProduct.js'
+import editProduct from '../controllers/product/editProduct.js'
+import editPhotoProduct from '../controllers/product/editPhotoProduct.js'
+import deleteProduct from '../controllers/product/deleteProduct.js'
 
 const router = express.Router()
 
+router.get('/', listProducts)
 router.post('/', createProduct)
-router.get('/list', productList)
-router.get('/', productById)
-router.delete('/', deleteProduct)
-router.put('/', editNameProduct)
 router.put('/', editProduct)
+router.patch('/', editPhotoProduct)
+router.delete('/', deleteProduct)
 
 export default router
